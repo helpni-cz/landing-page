@@ -17,7 +17,14 @@ body {
   font-weight: 400;
   margin: 0;
 }
+.overlay-img {
+  margin-bottom: -200px;
+}
 
+.overlay-div {
+  padding-top: 200px;
+}
+/* mobile */
 @media only screen and (max-width: 600px) {
   body {
     font-size: 18px;
@@ -44,6 +51,14 @@ body {
   }
   h6 {
     font-size: 24px;
+  }
+  
+  .overlay-img {
+    margin-bottom: -120px;
+  }
+  
+  .overlay-div {
+    padding-top: 120px;
   }
 }
 @media only screen and (min-width: 600px) {
@@ -391,3 +406,10 @@ a {
   background: #fff;
   background-image: linear-gradient(to right bottom, #b7b7b7, #bcbcbf, #c0c1c8, #c3c6d0, #c6cbd9, #ccd1df, #d2d7e5, #d8ddeb, #e3e5f0, #ededf5, #f6f6fa, #ffffff);
 }
+
+img {
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  content-visibility: auto;
+}
+
