@@ -539,3 +539,32 @@ a:active { text-decoration: none; } */
   -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
   filter: grayscale(0%);
 }
+
+.answer {
+  /* border-inline-start: 7px solid; */
+  border-block-start: 7px solid;
+  border-image-slice: 1;
+  padding: 10px;
+  font-size: smaller;
+  border-image-source: linear-gradient(90deg, #35CFCD,#44964A);
+}
+
+.dobrovolnik {
+  border-image-source: linear-gradient(#35CFCD, #35CFCD);
+}
+
+.knez {
+  border-image-source: linear-gradient(#44964A, #44964A);
+}
+
+.underline-dobrovolnik {
+  text-decoration: underline 5px #35CFCD;
+}
+
+.underline-knez {
+  text-decoration: underline 5px #44964A;
+}
+
+.underline-all {
+  text-decoration: underline 5px #0806a0;
+}
