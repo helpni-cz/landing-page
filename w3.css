@@ -639,21 +639,35 @@ a:active { text-decoration: none; } */
   filter: grayscale(0%);
 }
 
+.table {
+  display: table;
+}
+
 .answer {
   /* border-inline-start: 7px solid; */
   border-block-start: 7px solid;
+  border-inline-start: 7px solid;
   border-image-slice: 1;
   padding: 10px;
   font-size: smaller;
-  border-image-source: linear-gradient(90deg, #35cfcd, #44964a);
+  border-image-source: radial-gradient(circle at top left, #35cfcd, #44964a);
+  display: table-cell;
 }
 
 .dobrovolnik {
-  border-image-source: linear-gradient(#35cfcd, #35cfcd);
+  border-image-source: radial-gradient(
+    circle at top left,
+    #35cfcd,
+    transparent 50%
+  );
 }
 
 .knez {
-  border-image-source: linear-gradient(#44964a, #44964a);
+  border-image-source: radial-gradient(
+    circle at top left,
+    #44964a,
+    transparent 50%
+  );
 }
 
 .underline-dobrovolnik {
