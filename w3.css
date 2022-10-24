@@ -299,7 +299,18 @@ a {
 .w3-col-s12 {
   width: 99.99999%;
 }
+
+.social {
+  width: none;
+  margin: 0 auto;
+}
+
 @media (min-width: 601px) {
+  .social {
+    width: 400px;
+    margin: 0 auto;
+  }
+  
   .w3-col-m1 {
     width: 8.33333%;
   }
@@ -721,4 +732,21 @@ blockquote b {
 .gg-box img:hover {
   transform: scale(1.1);
   z-index: 10;
+}
+
+
+.facebook img, .instagram img {
+  background: none;
+  box-shadow: none;
+  border-radius: none;
+  width: fit-content;
+}
+
+.button-29 img {
+  margin-right: 10px;
+} 
+
+.facebook, .instagram {
+  width: 75%;
+  margin-bottom: 15px;
 }
