@@ -234,6 +234,8 @@ h5,
 h6 {
   font-family: Raleway, sans-serif;
   margin: 10px 0;
+  display: flex;
+  align-items: center;
 }
 .w3-image {
   max-width: 100%;
@@ -310,7 +312,8 @@ a {
     width: 400px;
     margin: 0 auto;
   }
-  
+
+
   .w3-col-m1 {
     width: 8.33333%;
   }
@@ -350,6 +353,12 @@ a {
   }
 }
 @media (min-width: 993px) {
+  .section1 {
+    color: #1d1d1d;
+    background: url(/images/icons/dots.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+  }
   .w3-col p {
     font-size: smaller;
   }
@@ -493,22 +502,20 @@ a {
 
 /* COLORS */
 .section1 {
-  background: #3c1053;
-  color: #fff;
-  background: -webkit-linear-gradient(to right bottom, #3c1053, #ad5389);
-  background: linear-gradient(to right bottom, #3c1053, #ad5389);
+  color: #1d1d1d;
 }
 
 .section2 {
-  background: #fdc830;
-  background: -webkit-linear-gradient(to right bottom, #f39535, #fded30);
-  background: linear-gradient(to right bottom, #f39535, #fded30);
+  background: #036DCE;
+  background: -webkit-linear-gradient(to right bottom, #036DCE, #025aac);
+  background: linear-gradient(to right bottom, #036DCE, #025aac);
+  color: #FFCB11;
 }
 
 .section3 {
   background: rgb(76, 187, 246);
-  background: -webkit-linear-gradient(to right bottom, #11998e, #84ffc1);
-  background: linear-gradient(to right bottom, #11998e, #84ffc1);
+  background: -webkit-linear-gradient(to right bottom, #FFCB11, #ff9411);
+  background: linear-gradient(to right bottom, #FFCB11, #ff9411);
 }
 
 .section4 {
@@ -734,8 +741,10 @@ blockquote b {
   z-index: 10;
 }
 
-
-.facebook img, .instagram img {
+.facebook img,
+.instagram img,
+.logo img,
+.default-img {
   background: none;
   box-shadow: none;
   border-radius: none;
@@ -744,9 +753,14 @@ blockquote b {
 
 .button-29 img {
   margin-right: 10px;
-} 
+}
 
-.facebook, .instagram {
+.facebook,
+.instagram {
   width: 75%;
   margin-bottom: 15px;
+}
+
+h1 .default-img {
+  margin-right: 10px;
 }
