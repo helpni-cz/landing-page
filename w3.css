@@ -23,6 +23,10 @@ body {
   overflow: hidden;
   background-color: #f1f1f1;
   padding: 20px 10px;
+  display: flex;
+  /* flex-direction: row; */
+  align-items: center;
+  justify-content: space-between;
 }
 
 .header a {
@@ -53,9 +57,9 @@ body {
   align-items: center;
   appearance: none;
   background-image: radial-gradient(
-    100% 100% at 100% 0,
-    #ffb85a 0,
-    #ff7c54 100%
+    100% 100% at 70% 0,
+    #036DCE 0,
+    #004687 100%
   );
   border: 0;
   border-radius: 6px;
@@ -86,16 +90,13 @@ body {
 }
 
 .button-29:focus {
-  box-shadow: #e0783c 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px,
-    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #e06a3c 0 -3px 0 inset;
+  box-shadow: #002c55 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #002c55 0 -3px 0 inset;
   text-decoration: none;
 }
 
-.button-29:hover {
-}
-
 .button-29:active {
-  box-shadow: #e0753c 0 3px 7px inset;
+  box-shadow: #002c55 0 3px 7px inset;
   transform: translateY(2px);
   text-decoration: none;
 }
@@ -559,9 +560,9 @@ img {
   align-items: center;
   appearance: none;
   background-image: radial-gradient(
-    100% 100% at 100% 0,
-    #ffb85a 0,
-    #ff7c54 100%
+    100% 100% at 70% 0,
+    #036DCE 0,
+    #004687 100%
   );
   border: 0;
   border-radius: 6px;
@@ -593,20 +594,20 @@ img {
 }
 
 .button-29:focus {
-  box-shadow: #e0783c 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px,
-    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #e06a3c 0 -3px 0 inset;
+  box-shadow: #002c55 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #002c55 0 -3px 0 inset;
   text-decoration: none;
 }
 
 .button-29:hover {
   box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px,
-    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #e06a3c 0 -3px 0 inset;
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #002c55 0 -3px 0 inset;
   transform: translateY(-2px);
   text-decoration: none;
 }
 
 .button-29:active {
-  box-shadow: #e0753c 0 3px 7px inset;
+  box-shadow: #002c55 0 3px 7px inset;
   transform: translateY(2px);
   text-decoration: none;
 }
