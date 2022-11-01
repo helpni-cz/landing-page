@@ -22,7 +22,7 @@ body {
 .header {
   overflow: hidden;
   background-color: #f1f1f1;
-  padding: 20px 10px;
+  padding: 5px 10px;
   display: flex;
   /* flex-direction: row; */
   align-items: center;
@@ -356,9 +356,9 @@ a {
 @media (min-width: 993px) {
   .section1 {
     color: #1d1d1d;
-    background: url(/images/icons/dots.svg);
+    background: url(/images/map.svg);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: left;
   }
   .w3-col p {
     font-size: smaller;
