@@ -528,6 +528,7 @@ a {
 }
 
 .footer {
+  padding-top: 20px;
   background: #fff;
   background-image: linear-gradient(
     to right bottom,
@@ -763,4 +764,9 @@ h1 .default-img {
 .footer h5 {
   text-align: center;
   justify-content: center;
+}
+
+.section5 {
+  background-color: #fff;
+  padding-bottom: 250px;
 }
