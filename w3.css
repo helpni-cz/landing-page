@@ -58,7 +58,7 @@ body {
   appearance: none;
   background-image: radial-gradient(
     100% 100% at 70% 0,
-    #036DCE 0,
+    #036dce 0,
     #004687 100%
   );
   border: 0;
@@ -312,8 +312,6 @@ a {
     width: 400px;
     margin: 0 auto;
   }
-
-
   .w3-col-m1 {
     width: 8.33333%;
   }
@@ -506,16 +504,16 @@ a {
 }
 
 .section2 {
-  background: #036DCE;
-  background: -webkit-linear-gradient(to right bottom, #036DCE, #025aac);
-  background: linear-gradient(to right bottom, #036DCE, #025aac);
-  color: #FFCB11;
+  background: #036dce;
+  background: -webkit-linear-gradient(to right bottom, #036dce, #013c72);
+  background: linear-gradient(to right bottom, #036dce, #013c72);
+  color: #f8f8f8;
 }
 
 .section3 {
   background: rgb(76, 187, 246);
-  background: -webkit-linear-gradient(to right bottom, #FFCB11, #ff9411);
-  background: linear-gradient(to right bottom, #FFCB11, #ff9411);
+  background: -webkit-linear-gradient(to right bottom, #ffcb11, #ff9411);
+  background: linear-gradient(to right bottom, #ffcb11, #ff9411);
 }
 
 .section4 {
@@ -561,7 +559,7 @@ img {
   appearance: none;
   background-image: radial-gradient(
     100% 100% at 70% 0,
-    #036DCE 0,
+    #036dce 0,
     #004687 100%
   );
   border: 0;
@@ -616,17 +614,6 @@ img {
   padding-top: 50px;
 }
 
-/* a:link { text-decoration: none; }
-
-
-a:visited { text-decoration: none; }
-
-
-a:hover { text-decoration: none; }
-
-
-a:active { text-decoration: none; } */
-
 .child {
   text-align: center;
   font-size: smaller;
@@ -647,19 +634,22 @@ a:active { text-decoration: none; } */
   align-items: center;
 }
 
+@media only screen and (max-width: 600px) {
+  .avatar {
+    width: 30% !important;
+    margin-right: 10px;
+  }
+} 
 .avatar {
-  /* border-radius: 29px; */
-  /* padding: 10px; */
-  /* margin: 10px;  */
   width: 90%;
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
-  transition: 0.5s ease-in;
+  /* -webkit-filter: grayscale(100%); Safari 6.0 - 9.0 */
+  /* filter: grayscale(100%); */
+  /* transition: 0.5s ease-in; */
 }
 
 .avatar:hover {
-  -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(0%);
+  /* -webkit-filter: grayscale(0%); Safari 6.0 - 9.0 */
+  /* filter: grayscale(0%); */
 }
 
 .table {
